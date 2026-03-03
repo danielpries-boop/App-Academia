@@ -22,7 +22,7 @@ const WorkoutCard = ({ workout }) => {
         <a className="text-primary text-sm font-semibold hover:underline" href="#">Ver Plano</a>
       </div>
       <div className="relative overflow-hidden rounded-2xl bg-surface-dark group">
-        <div className="absolute inset-0 bg-center bg-cover opacity-60 mix-blend-overlay transition-transform duration-700 group-hover:scale-105" style={{ backgroundImage: `url('https://lh3.googleusercontent.com/aida-public/AB6AXuB4hWSaJm8si4-KMOu82yJoMYt99ir5PrF_Gey94zZ4wq6Aa4f7cs1OsuFtTiYwGV-9_4EsyhRsxvKdvgCAwIHFfT-1lDj0gFjtBLtpNc9X4kpknn29TFIIeQvhV5HePAU2owBxrAryzGSmASI_D6IRdoxt30DrdJAhXfFgUshQR4r_5wOvgIz8P4b8sDawpLCHPZe5qxRsRNLW--4e4hCMaycYoUPULC7t5upQbLCzaDKB7UDcXGxxXQo75dZ5XR4es_bLPlC8OC4')` }}></div>
+        <div className="absolute inset-0 bg-center bg-cover opacity-60 mix-blend-overlay transition-transform duration-700 group-hover:scale-105" style={{ backgroundImage: `url('https://picsum.photos/seed/gym/800/400')` }}></div>
         <div className="absolute inset-0 bg-gradient-to-r from-blue-900/90 via-blue-900/60 to-transparent"></div>
         <div className="relative p-5 flex flex-col h-full min-h-[160px] justify-between">
           <div>

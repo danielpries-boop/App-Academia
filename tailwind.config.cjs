@@ -8,11 +8,12 @@ module.exports = {
   theme: {
     extend: {
         colors: {
-            "primary": "#3b82f6",
-            "primary-dark": "#2563eb",
+            "primary": "#38bdf8", // Sky blue for contrast
+            "primary-dark": "#0284c7",
             "background-light": "#f0f4f8",
-            "background-dark": "#0f172a",
-            "surface-dark": "#1e293b",
+            "background-dark": "#0a192f", // Deep navy blue
+            "surface-dark": "#112240", // Navy blue surface
+            "card-dark": "#233554", // Lighter navy card
         },
         fontFamily: {
             "display": ["Manrope", "sans-serif"]
