@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    /* Base styles are now applied directly in index.html */
+  }
+}
