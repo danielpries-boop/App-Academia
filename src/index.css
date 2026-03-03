@@ -1,7 +1,18 @@
 @import "tailwindcss";
 
+@theme {
+  --color-primary: #38bdf8;
+  --color-primary-dark: #0284c7;
+  --color-background-light: #f0f4f8;
+  --color-background-dark: #0a192f;
+  --color-surface-dark: #112240;
+  --color-card-dark: #233554;
+  --font-display: "Manrope", sans-serif;
+}
+
 @layer base {
   body {
-    /* Base styles are now applied directly in index.html */
+    background-color: var(--color-background-dark);
+    color: #f1f5f9; /* slate-100 */
   }
 }

@@ -2,7 +2,16 @@ import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { ArrowLeft, ArrowRight, PersonStanding, Dumbbell, Zap, Scale } from 'lucide-react';
 
-const CustomSlider = ({ label, unit, min, max, value, setValue }) => {
+interface CustomSliderProps {
+  label: string;
+  unit: string;
+  min: number;
+  max: number;
+  value: number;
+  setValue: (value: number) => void;
+}
+
+const CustomSlider = ({ label, unit, min, max, value, setValue }: CustomSliderProps) => {
   const percentage = ((value - min) / (max - min)) * 100;
 
   return (
