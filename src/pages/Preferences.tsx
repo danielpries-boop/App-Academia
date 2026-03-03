@@ -7,25 +7,25 @@ const dietOptions = [
     id: 'standard',
     title: 'Padrão Equilibrado',
     description: 'Alta energia para treinos variados.',
-    image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuA4sVnJj1iz3VqMFEaWgktwI3S4DkR_rACHLftMxcPHekpvYm2bAc9s3b0jMicfYPruhBlXa2pjFqGYT1g9XmXbFsBXjuOos651db6kr0M9fodscB8ejM6FaaSCxvfZWNjCltFFj3Tl1UlhwmvvykvBuH7QyaI6Z02PW8yd8DV9dW1qSrNPKTyfzWvJZ1t0VgG5eHvrkjMGLX-at0ertn_YmSycdo-gPlFo9QtPc82hUIs3tdI9RNJOT0xyQdKpcZF3nCst1rzIwcs',
+    image: 'https://picsum.photos/seed/diet1/600/400',
   },
   {
     id: 'keto',
     title: 'Cetogênica',
     description: 'Foco em gorduras para resistência.',
-    image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuDSnTC7icUwzQcojYPd0fkYA3WNO6syQ__Qt3ComWc4QwppdwvmJdWNfCOzD9BAXeGFllNaFLyO0LrWYRdQYLXvcuATLMmyrhw6XjVGBxeF1yU1jTk6Q6kUv6XbACwS040N6FrSDjkvXmQLdGEzwfCBxPhM8BtC0XwHgFYkl0GYmb58QQxf2vVh6jVIS2V39zAJzc54vaUHfa3C09RD1YzhCqMVZ04vpj73AbasOBE13oobhQAK06Cmwq-r74qVMUt7VJM1p-v0-cQ',
+    image: 'https://picsum.photos/seed/diet2/600/400',
   },
   {
     id: 'vegan',
     title: 'Vegana',
     description: 'Base vegetal e ganhos limpos.',
-    image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuCk8pnLW8Nv_8C1qCBAuQGN2IGzGiYYe8aJ-S1oqUBd5Pb2T9TJ2oqy1tRcWQT1YGlebKGHDy2ARgUO5ugwCqIUbVTfOi7rywL-nOAcDrx-gJPihJ2w9jMYdCorcL6aZfgPXOnV8FsxTndv6PoTwaHTmMg-Wy6pOjBnwPXXA4GWLc5DL9ay4yfCB2HfmELTkOi0hCN9ybsh7b0NgCsEes-8kW4RzGbpt4rhIKy5Wd6mWQl6F7CSCxTcgFnCjIYym_fatKOrKNpFO_g',
+    image: 'https://picsum.photos/seed/diet3/600/400',
   },
   {
     id: 'intermittent_fasting',
     title: 'Jejum Intermitente',
     description: 'Janelas de treino otimizadas.',
-    image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuDMvLQsWnqEG3y2b_C7W-Ur0HQUTdo21hB-sgCXLoU6LQiCQFtGHjaJltjXYSZWJBi_jdXm5Md6a5zUJlXfrzJiQw0hFfYyjSNSKelWd9U1zy6BGkND5TIYhVW-7I-Vxlwk2LJupFPqmEB2XgeVKrL6SV-VihU9W3i-vMkguwMf7PB9YG2wqc5ycYGFk5aEuHMMGzbu3j5ZAZsZPPfbyJEjd71ZQDss6dhykD2mq43p1yi46E57Wthsj8Sj86H1Q1CeBZ8fcdIwtM4',
+    image: 'https://picsum.photos/seed/diet4/600/400',
   },
 ];
 

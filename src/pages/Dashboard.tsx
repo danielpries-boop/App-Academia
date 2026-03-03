@@ -27,18 +27,24 @@ export default function Dashboard() {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    const userData = location.state;
-    if (userData) {
-      generateWorkoutPlan(userData)
-        .then(plan => {
-          setWorkoutPlan(plan);
-          setIsLoading(false);
-        })
-        .catch(error => {
-          console.error("Failed to generate workout plan:", error);
-          setIsLoading(false);
+    const userData = location.state || { gender: 'male', weight: 75, height: 180, goal: 'build_muscle', diet: 'standard' };
+    
+    generateWorkoutPlan(userData)
+      .then(plan => {
+        setWorkoutPlan(plan);
+        setIsLoading(false);
+      })
+      .catch(error => {
+        console.error("Failed to generate workout plan:", error);
+        // Fallback mock data in case API fails
+        setWorkoutPlan({
+          title: "Treino de Força (Offline)",
+          duration: 45,
+          level: "Intermediário",
+          exercises_count: 5
         });
-    }
+        setIsLoading(false);
+      });
   }, [location.state]);
 
   return (

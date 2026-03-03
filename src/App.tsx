@@ -7,6 +7,9 @@ import Onboarding from './pages/Onboarding';
 import Preferences from './pages/Preferences';
 import Dashboard from './pages/Dashboard';
 import Progress from './pages/Progress';
+import Workout from './pages/Workout';
+import Nutrition from './pages/Nutrition';
+import Profile from './pages/Profile';
 
 export default function App() {
   return (
@@ -16,6 +19,9 @@ export default function App() {
         <Route path="/preferences" element={<Preferences />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/progress" element={<Progress />} />
+        <Route path="/workout" element={<Workout />} />
+        <Route path="/nutrition" element={<Nutrition />} />
+        <Route path="/profile" element={<Profile />} />
       </Routes>
     </BrowserRouter>
   );
